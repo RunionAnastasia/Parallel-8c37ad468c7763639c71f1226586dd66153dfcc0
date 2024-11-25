@@ -1,0 +1,62 @@
+.landing-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .landing-header {
+    margin-bottom: 20px;
+  }
+  
+  .landing-main {
+    display: flex;
+   
+    align-items: center;
+  }
+  
+  .landing-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+  }
+  
+ 
+
+  .btn-signup {
+    background: linear-gradient(90deg, #0038A8, #9B4F96, #D60270);
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-signup:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+
+  .btn-login {
+    background: linear-gradient(90deg, #0038A8, #9B4F96, #D60270);
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-login:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }

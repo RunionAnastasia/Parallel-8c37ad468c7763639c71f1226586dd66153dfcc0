@@ -1,0 +1,128 @@
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(135deg, #D60270, #0038A8, #9B4F96);
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden; /* Prevent scrolling */
+  display: flex;
+ 
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  animation: gradient-animation 6s infinite; /* Apply gradient animation */
+}
+
+
+/* Buttons - Reusable Styles */
+button {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  padding: 15px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Highlight effect */
+  transform: scale(1.1); /* Grow on hover */
+}
+
+
+.create-account-btn {
+  background: linear-gradient(90deg, #0038A8, #9B4F96, #D60270);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.create-account-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(135deg, #D60270, #0038A8, #9B4F96);
+  min-height: 100vh;
+  width: 100vw;
+  overflow-y: auto; /* Allow vertical scrolling */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  animation: gradient-animation 6s infinite; /* Apply gradient animation */
+}
+
+/* Make the gradient cover the full scrollable height */
+html {
+  min-height: 100%;
+  background: linear-gradient(135deg, #D60270, #0038A8, #9B4F96);
+  background-attachment: fixed; /* Keeps gradient consistent */
+}
+
+/* Container for Profile Content */
+.profile-edit-container {
+  max-width: 900px;
+  width: 90%; /* Responsive width */
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  backdrop-filter: blur(5px); /* Frosted glass effect */
+}
+
+/* Buttons - Reusable Styles */
+button {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  padding: 15px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Highlight effect */
+  transform: scale(1.1); /* Grow on hover */
+}
+
+.create-account-btn {
+  background: linear-gradient(90deg, #0038A8, #9B4F96, #D60270);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.create-account-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Gradient Animation */
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+body, html {
+  background-size: 300% 300%;
+}
